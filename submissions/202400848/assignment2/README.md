@@ -29,7 +29,7 @@
 - 결과: Dropout=0.35일 때 98.07% Test 정답률을 기록했다.
 - 분석: Dropout rate는 0.35까지 증가하며 정확도가 향상되었다가 그 후 감소하였다. 실험2 Hidden Layer=1, Dropout rate=0일 떄와 비교하여 실험3에서 Dropout rate=0.35일 때 정답률이 더 높아 적절한 dropout이 overfitting을 방지해 모델의 성능을 높인다는 것은 관찰할 수 있었다.
 
-### [실험 4: Dropout Rate를 적용하여 실험 2의 정답률 경향성 변화 관찰]
+### 실험 4: [Dropout Rate를 적용하여 실험 2의 정답률 경향성 변화 관찰]
 - 변경사항: 실험2와 같은 조건에 실험4에서 구한 Dropout Rate = 0.35를 추가로 적용하여 Hidden Layer 개수에 따른 정답률 경향성 변화를 관찰했다.
 - 결과: 최고 정답률을 dropout이 없을 때는 hidden layers=1에서 98.00%, dropout이 있을 때는 hidden layers=1일 때 98.07%이다.
 - 분석 (실험2와의 비교): Dropout를 적용한 결과 대체로 hidden layer가 깊어질수록 정답률이 감소하는 경향성을 보였지만 dropout이 없을 떄와 비교하면 일관적이지 않은 결과가 나왔다. 실험3을 통해 구한 최적의 dropout rate는 hidden layer=1일 때의 최적값으로, hidden layer값이 1이 아닐 때에도 최적인 비율이 아니라서 그럴 가능성이 있는 것 같다. 또한 overfitting이 아니거나, vanishing gradient가 발생한 상태에서 dropout를 적용하면 오히려 학습이 더욱 불안정해질 가능성이 있다.
