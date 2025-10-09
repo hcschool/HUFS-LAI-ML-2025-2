@@ -1,5 +1,10 @@
 # MNIST 분류 실험 결과
 
+## 코랩
+- 파일 용량이 큰 관계로 결과 셀까지 출력된 코랩 ml_mnist.ipynb, experiments.ipynb 파일 링크를 첨부합니다.
+- ml_mnist_colab.ipynb: https://colab.research.google.com/drive/1rFp4grejz75PcdCOPDFfsniKchGh5WMX?usp=sharing
+- experiments_colab.ipynb: https://colab.research.google.com/drive/1Qhn2otf9PBB1vcn22EHy8pZ67mqpyKBr?usp=sharing
+
 ## 기본 모델 성능
 - 최종 테스트 정확도: 97.02%
 - 훈련 시간: 53초
