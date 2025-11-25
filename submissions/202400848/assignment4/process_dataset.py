@@ -6,7 +6,7 @@ import numpy as np
 # 1. 설정
 base_dir = os.path.dirname(os.path.abspath(__file__))
 data_dir = os.path.join(base_dir, "data")
-input_file = "dataset_manual_cleaned.csv"  # 수동 정리한 파일
+input_file = "dataset_manual_cleaned.csv"
 
 # 2. 데이터 로드
 file_path = os.path.join(data_dir, input_file)

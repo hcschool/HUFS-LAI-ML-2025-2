@@ -56,7 +56,7 @@ def crawl_iel_full():
                 )
                 response.encoding = "utf-8"  # 인코딩 고정
 
-                soup = BeautifulSoup(response.text, "lxml")  # lxml 파서 사용
+                soup = BeautifulSoup(response.text, "lxml")
                 rows = soup.select("table.board-table tbody tr")
 
                 for row in rows:
@@ -70,7 +70,7 @@ def crawl_iel_full():
                         if not title_td:
                             continue
 
-                        # [핵심 수정] 제목에도 clean_text 적용!
+                        # [핵심 수정] 제목에도 clean_text 적용
                         title = clean_text(title_td.text)
 
                         link_tag = title_td.select_one("a")

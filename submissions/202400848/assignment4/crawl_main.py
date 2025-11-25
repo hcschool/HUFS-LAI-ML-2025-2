@@ -39,7 +39,6 @@ def crawl_hufs_list(category_name, base_url, pages=3):
     for page in range(1, pages + 1):
         try:
             target_url = f"{base_url}?page={page}"
-            # [핵심] verify=False, timeout, lxml 적용
             response = requests.get(
                 target_url, headers=headers, verify=False, timeout=15
             )
