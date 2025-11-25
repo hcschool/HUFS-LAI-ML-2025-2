@@ -1,6 +1,7 @@
 # Assignment 4: Data Collection and Analysis
 
 ## 파일 구조 설명
+```
 assignment4/
 ├─ data/
 │  ├─ dataset_for_labeling.csv # 전체 데이터에 라벨링한 것(2077개)
@@ -18,6 +19,7 @@ assignment4/
 ├─ prepare_dataset.py # 크롤링한 공지사항 중 중복을 제거해서 dataset_for_labeling 생성
 ├─ process_dataset.py # dataset_manual_cleaned에서 라벨링, 제목, 본문만 남겨 test, train, val 파일 생성
 └─ README.md
+```
 
 ## 데이터 수집
 
