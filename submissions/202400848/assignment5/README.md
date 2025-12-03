@@ -4,16 +4,16 @@
 ```
 assignment5/
 ├── data/
-|	├── training.csv		# 데이터증강 전 training 데이터셋
-|	├── training_aug.csv		# 데이터증강한 데이터셋
-|	├── val.csv			# validation 데이터셋
-|	└── test.csv			# evaluation.ipynb에서 사용하는 테스트용 데이터셋
-├── training_optimized5.ipynb              # (필수) 모델 학습 코드
-├── val_results_v5.ipynb		# validation의 시각화 코드
-├── val_results_v5.csv		# training_optimized_v5의 validation결과를 저장해서 val_results_v5.ipynb로 시각화 할 때 불러오기 위함.
-├── evaluation.ipynb            # 모델 평가 코드 및 test set 추론 결과의 자세한 시각화
-├── inference.ipynb             # 모델 추론 코드 및 시각화
-└── README. 	# 프로젝트 요약 및 결과
+|	├── training.csv		        # 데이터증강 전 training 데이터셋
+|	├── training_aug.csv		    # 데이터증강한 데이터셋
+|	├── val.csv			            # validation 데이터셋
+|	└── test.csv			        # evaluation.ipynb에서 사용하는 테스트용 데이터셋
+├── training_optimized5.ipynb       # (필수) 모델 학습 코드
+├── val_results_v5.ipynb		    # validation의 시각화 코드
+├── val_results_v5.csv		        # training_optimized_v5의 validation결과를 저장해서 val_results_v5.ipynb로 시각화 할 때 불러오기 위함.
+├── evaluation.ipynb                # 모델 평가 코드 및 test set 추론 결과의 자세한 시각화
+├── inference.ipynb                 # 모델 추론 코드 및 시각화
+└── README.md 	                    # 프로젝트 요약 및 결과
 ```
 ### 실험 설계
 - 사용 모델: Klue RoBERTa Small
