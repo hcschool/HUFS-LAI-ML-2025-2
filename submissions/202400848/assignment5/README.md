@@ -20,6 +20,7 @@ assignment5/
 - RoBERTa의 한국어 특화 경량모델로 데이터셋의 크기가 작아서 사용했다.
 - train, validation, test 비율
 	- train : validation : test = 8 : 1 : 1
+   	- 데이터셋은 데이터 출처별로 시계열로 분리해 train, validation, test에 출처의 비율이 일정하도록 했다.
 	- Assignment4에서 제출한 데이터셋에서 마지막에 데이터 출처(공지, 학사, 장학, IEL, LAI)를 붙인 데이터셋으로 다시 제작했다.
 		- 학습 시에는 출처를 사용하지 않지만 데이터의 불균형이 존재하여 출처별 정확도 비교를 하기 위해 시각화 과정에만 사용했다.
 - 모델 가중치 링크: https://drive.google.com/drive/folders/1P15TGD68mdmAd64ef7VWVsMK-DQjJq61?usp=sharing
