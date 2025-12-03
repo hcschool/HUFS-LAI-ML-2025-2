@@ -4,10 +4,10 @@
 ```
 assignment5/
 ├── data/
-	├── training.csv		# 데이터증강 전 training 데이터셋
-	├── training_aug.csv		# 데이터증강한 데이터셋
-	├── val.csv			# validation 데이터셋
-	└── test.csv			# evaluation.ipynb에서 사용하는 테스트용 데이터셋
+|	├── training.csv		# 데이터증강 전 training 데이터셋
+|	├── training_aug.csv		# 데이터증강한 데이터셋
+|	├── val.csv			# validation 데이터셋
+|	└── test.csv			# evaluation.ipynb에서 사용하는 테스트용 데이터셋
 ├── training_optimized5.ipynb              # (필수) 모델 학습 코드
 ├── val_results_v5.ipynb		# validation의 시각화 코드
 ├── val_results_v5.csv		# training_optimized_v5의 validation결과를 저장해서 val_results_v5.ipynb로 시각화 할 때 불러오기 위함.
@@ -22,7 +22,7 @@ assignment5/
 	- train : validation : test = 8 : 1 : 1
 	- Assignment4에서 제출한 데이터셋에서 마지막에 데이터 출처(공지, 학사, 장학, IEL, LAI)를 붙인 데이터셋으로 다시 제작했다.
 		- 학습 시에는 출처를 사용하지 않지만 데이터의 불균형이 존재하여 출처별 정확도 비교를 하기 위해 시각화 과정에만 사용했다.
-- 모델 가중치 링크: [https://drive.google.com/drive/folders/1P15TGD68mdmAd64ef7VWVsMK-DQjJq61?usp=sharing]
+- 모델 가중치 링크: https://drive.google.com/drive/folders/1P15TGD68mdmAd64ef7VWVsMK-DQjJq61?usp=sharing
 	- 코드에 사용한 코랩 경로: `/content/drive/MyDrive/assignment5/saved_model_v5`
 - 학습 방법
 	- 관련도, 중요도를 multi-head 방식으로 따로 학습을 진행하는 방식을 사용했다. 
